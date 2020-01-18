@@ -8,9 +8,9 @@
 },
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode production",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack-dev-server --mode production --open"
   },
   "author": "amanda winkler",
   "license": "ISC",
