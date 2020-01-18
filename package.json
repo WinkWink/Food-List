@@ -8,9 +8,8 @@
 },
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode production",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode production --open"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "amanda winkler",
   "license": "ISC",
