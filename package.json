@@ -8,7 +8,7 @@
 },
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "npm install --dev"
+    "heroku-prebuild": "npm install --dev",
     "server": "nodemon index.js",
     "start": "node index.js"
   },
